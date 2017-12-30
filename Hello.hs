@@ -1,12 +1,5 @@
-x :: Integer
-x = 5
-
-y :: Integer
-y = 6
-
-z :: Integer
-z = x + y
+addIntegers :: Integer -> Integer -> Integer
+addIntegers x y = x + y
 
 main :: IO ()
-
-main = print z
+main = print (addIntegers 7 8)
